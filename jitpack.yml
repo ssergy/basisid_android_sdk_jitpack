@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=SdkBasisID-release.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.sdk.basisid -DartifactId=SdkBasisID -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
